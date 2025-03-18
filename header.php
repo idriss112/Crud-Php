@@ -8,8 +8,8 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <h1 id="main_title">CRUD APPLICATION IN PHP</h1>
-
+    <h1 id="main_title"><a href="index.php">CRUD APPLICATION IN PHP</a></h1>
+    
 
 
     <div class="container">
