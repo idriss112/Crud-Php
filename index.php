@@ -16,6 +16,10 @@
     if(isset($_GET['update_msg'])){
         echo"<h6 class='succes' >".$_GET['update_msg']."</h6>";
     }?>
+    <?php 
+    if(isset($_GET['delete_msg'])){
+        echo"<h6 class='failed' >".$_GET['delete_msg']."</h6>";
+    }?>
     <div class="box1">
     <h2>ALL STUDENTS</h2>
     <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">ADD STUDENTS</button>
