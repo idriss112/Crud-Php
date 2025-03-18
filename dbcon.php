@@ -11,7 +11,5 @@
     if(!$connection){
         die("Connection failed !!");
     }
-    else{
-        echo"Yess";
-    }
+   
 ?>
